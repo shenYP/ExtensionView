@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpecialShaped">
+        <!--最大宽度-->
+        <attr name="maxWidth" format="dimension" />
+        <!--最小宽度-->
+        <attr name="minWidth" format="dimension" />
+        <!-- 边角大小 -->
+        <attr name="angleSize" format="dimension" />
+        <!--是否裁切子view-->
+        <attr name="clipChildren" format="boolean" />
+        <!--动画持续时间-->
+        <attr name="duration" format="integer" />
+        <!--上下差异宽度-->
+        <attr name="differenceWidth" format="dimension" />
+        <!--背景聚焦缩放倍数(默认1.1F)-->
+        <attr name="focusBackgroundScale" format="float" />
+        <!--人物聚焦缩放倍数(默认1.05F)-->
+        <attr name="focusPersonScale" format="float" />
+    </declare-styleable>
+</resources>
